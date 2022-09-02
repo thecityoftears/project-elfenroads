@@ -1,0 +1,51 @@
+[package]
+edition = "2021"
+name = "elfenserver"
+version = "0.1.0"
+[dependencies]
+async-trait = "0.1"
+base64 = "0.13"
+crossbeam-channel = "0.5"
+ctrlc = "3.2"
+env_logger = "0.9"
+eyre = "0.6"
+futures = "0.3"
+http = "0.2"
+itertools = "0.10"
+log = "0.4"
+parking_lot = "0.12"
+percent-encoding = "2.1"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+structopt = "0.3"
+thiserror = "1"
+tokio-tungstenite = "0.17.1"
+toml = "0.5"
+tungstenite = "0.17.1"
+walkdir = "*"
+warp = "0.3"
+
+[dependencies.hashbrown]
+features = ["serde"]
+version = "0.12"
+
+[dependencies.reqwest]
+features = ["json"]
+version = "0.11"
+
+[dependencies.tokio]
+features = ["full"]
+version = "1.15"
+
+[dependencies.tokio-stream]
+features = ["net", "fs"]
+version = "0.1"
+
+[dependencies.url]
+features = ["serde"]
+version = "2.2"
+
+[dependencies.uuid]
+features = ["serde", "v4"]
+version = "0.8"

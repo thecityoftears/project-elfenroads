@@ -1,0 +1,70 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfencore.Console", "Elfencore.Console\Elfencore.Console.csproj", "{CAE06C8F-9B36-4E18-BCF7-784EF8C3AC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfencore.Network", "Elfencore.Network\Elfencore.Network.csproj", "{0B68CBC3-6CDA-455E-BF84-C2B798A8A2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfencore.Shared", "Elfencore.Shared\Elfencore.Shared.csproj", "{6C14A891-6B99-4031-B5E4-6124AF07E4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfencore.Session", "Elfencore.Session\Elfencore.Session.csproj", "{327B6921-DBDD-406A-B169-57A688EBEBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfencore.Demo", "Elfencore.Demo\Elfencore.Demo.csproj", "{BFBA07F4-2FF9-4AB9-89B9-B1CAEF6E5318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAE06C8F-9B36-4E18-BCF7-784EF8C3AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE06C8F-9B36-4E18-BCF7-784EF8C3AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE06C8F-9B36-4E18-BCF7-784EF8C3AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE06C8F-9B36-4E18-BCF7-784EF8C3AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B68CBC3-6CDA-455E-BF84-C2B798A8A2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B68CBC3-6CDA-455E-BF84-C2B798A8A2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B68CBC3-6CDA-455E-BF84-C2B798A8A2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B68CBC3-6CDA-455E-BF84-C2B798A8A2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C14A891-6B99-4031-B5E4-6124AF07E4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C14A891-6B99-4031-B5E4-6124AF07E4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C14A891-6B99-4031-B5E4-6124AF07E4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C14A891-6B99-4031-B5E4-6124AF07E4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327B6921-DBDD-406A-B169-57A688EBEBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327B6921-DBDD-406A-B169-57A688EBEBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327B6921-DBDD-406A-B169-57A688EBEBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327B6921-DBDD-406A-B169-57A688EBEBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBA07F4-2FF9-4AB9-89B9-B1CAEF6E5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBA07F4-2FF9-4AB9-89B9-B1CAEF6E5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBA07F4-2FF9-4AB9-89B9-B1CAEF6E5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBA07F4-2FF9-4AB9-89B9-B1CAEF6E5318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 80
+		$1.TabsToSpaces = True
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.NewLinesForBracesInTypes = False
+		$2.NewLinesForBracesInMethods = False
+		$2.NewLinesForBracesInProperties = False
+		$2.NewLinesForBracesInAccessors = False
+		$2.NewLinesForBracesInAnonymousMethods = False
+		$2.NewLinesForBracesInControlBlocks = False
+		$2.NewLinesForBracesInAnonymousTypes = False
+		$2.NewLinesForBracesInObjectCollectionArrayInitializers = False
+		$2.NewLinesForBracesInLambdaExpressionBody = False
+		$2.NewLineForElse = False
+		$2.NewLineForCatch = False
+		$2.NewLineForFinally = False
+		$2.NewLineForMembersInObjectInit = False
+		$2.NewLineForMembersInAnonymousTypes = False
+		$2.NewLineForClausesInQuery = False
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
