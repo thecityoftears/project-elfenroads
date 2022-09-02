@@ -1,0 +1,5 @@
+.DS_Store
+*.app
+tmp/
+*.7z
+*.zip
